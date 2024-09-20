@@ -1,0 +1,339 @@
+html {
+    scroll-behavior: smooth;
+}
+
+    .type h1{
+        font-size: 3.5rem; /* Increased size of "Hi, I am" */
+        color: white;
+        margin-bottom: 10px;
+    }
+    
+
+    .nav {
+            background-color: #2a2a2a;
+            color: white;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            align-items: center;
+            padding: 15px 50px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+            font-family: "Amita", serif;
+        }
+
+        .n {
+            list-style: none;
+            display: flex;
+            gap: 50px; 
+            margin: 0;
+            padding: 0;
+        }
+
+        .n li {
+            display: inline;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s ease;
+            padding: 10px 20px; 
+            border-radius: 5px; 
+        }
+
+        .nav a:hover {
+            color: aqua;
+            background-color: rgba(0, 255, 255, 0.2); 
+        }
+    body{
+        background: linear-gradient(135deg, #0a0a0a, #2c2c2c);
+        margin: 0;
+        /* margin-left: 20px; */
+        padding: 0;
+        overflow-x: hidden;
+        color: aliceblue;
+        height: 100vh;
+    }
+    .container{
+        height: 80vh;
+        width: 1200px;
+        /* background-color: red; */
+        margin:0 auto;
+        display: flex;
+        align-items: center;
+        gap:500px;
+        flex-direction: row-reverse;
+        justify-content: center;  
+    } 
+    .type{
+        font-family: "Amita", serif;
+
+        
+    }
+    .line{
+        color: white;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+    }
+    .me{
+        border: 5px outset aqua;
+        /* background-color: yellow; */
+        border-radius: 50%;
+        height: 400px;
+        width: 1650px;
+        object-fit: cover;
+        /* margin-left: 700px; */
+    }
+    #about {
+        background-color: linear-gradient(135deg, #0a0a0a, #2c2c2c);
+        height: 60vh;
+        width: 70%;
+        margin: 0 auto; /* Centers the about section horizontally */
+        padding: 20px; /* Adds spacing inside the section */
+        color: white;
+        font-family: 'Poppins', sans-serif; /* Use a readable font */
+    }
+
+    .Ab {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: aqua; /* Title color */
+        font-family: "Amita", serif;
+    }
+
+    .pan{
+        font-size: larger;
+        line-height: 1.6; /* Improves readability */
+        text-align: center; /* Centers the text */
+    }
+    .social{
+        height: 5vh;
+        width: 60px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        bottom: 150px;
+        margin-left: 165px;
+        margin-top: -50px;
+    }
+    .social a img:hover {
+        transform: scale(1.5); /* Enlarges the icons to 1.5x on hover */
+    }
+    .tech{
+        color: aqua;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .tool-icons {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 20px;
+    }
+    .tool-icons:hover{
+        transform: scale(1.2);
+    }
+    #pro {
+        color: aqua;
+        text-align: center;
+        font-family: "Amita", serif;
+        font-size: 50px;
+    }
+    .project-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between the boxes */
+    margin-top: 20px;
+}
+
+.pro-box {
+    height: 200px;
+    width: 300px; 
+    padding: 20px;
+    background-color: rgba(0, 255, 255, 0.1); /* Light transparent background */
+    border: 2px solid aqua;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+#name {
+    width: 50%;
+    background:  rgba(0, 255, 255, 0.1);;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-family: "Amita", serif;
+font-size: 25px;
+font-weight: 400;
+line-height: 31.9px;
+text-align: left;
+border-radius: 3px;
+}
+#submit {
+    width: 35%;
+height: Hug (48px)px;
+top: 3057px;
+padding: 10px 19px 10px 20px;
+gap: 10px;
+opacity: 0px;
+background: aqua;
+color: black;
+font-family: 'Poppins', sans-serif;
+position: relative;
+top: 100px;
+border-radius: 10px;
+font-size: 20px;
+}
+#email {
+    width: 50%;
+    position: relative;
+    top: 20px;
+    color: white;
+    background:  rgba(0, 255, 255, 0.1);;
+    font-size: 25px;
+font-weight: 400;
+line-height: 31.9px;
+text-align: left;
+border-radius: 3px;
+border: 1px solid #FFFFFF;
+    font-family: "Amita", serif;
+}
+#comment {
+    width: 50%;
+    position:relative;
+    top: 50px;
+    border: 1px solid #FFFFFF;
+    color: white;
+    background:  rgba(0, 255, 255, 0.1);;
+    font-family: "Amita", serif;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#Con{
+    color: aqua;
+        text-align: center;
+        font-family: "Amita", serif;
+        font-size: 50px;
+
+}
+.right {
+    color: #FFFFFF;
+    font-size: large;
+    font-family: "Amita", serif;
+    text-align: center;
+}
+
+.copy{
+    color: #FFFFFF;
+    
+}    
+
+
+    .type {
+        content: Engineer ;
+        font-size: 40px;
+        font-weight: 700;
+        /* background-color: green; */
+    }
+
+    .type span {
+        position: relative;
+    }
+    .type span::before{
+        content: "Sanket Shaw";
+        font-size: 45px;
+        color: aqua;
+        animation: words 10s infinite;
+    }
+    .type span::after{
+        content: "";
+        position: absolute;
+        width: calc(100% + 8px);
+        height: 60px;
+        /* background: linear-gradient(135deg, #0a0a0a, #2c2c2c); */
+        overflow: hidden;
+        border-left: 4px solid aqua;
+        right: -8px;
+        animation: cursor 1.5s infinite, typing 10s steps(15) infinite ;
+
+    }
+    @keyframes cursor {
+        to {
+            border-left: 4px solid rgb(3,0,20);
+        }
+      }
+    @keyframes words {
+        0%,50%{
+            content: "Sanket Shaw";
+        }
+        51%,100%{
+            content: "Web Developer"
+        }    
+    }  
+    @keyframes typing {
+        10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+            width: 0;
+        }
+        5%,20%,25%,40%,45%,60%,65%,80%,85%{
+            width: calc(100% + 8px);
+        }
+    }
+    @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+            .me {
+                width: 200px;
+                height: 200px;
+            }
+            .type h1 {
+                font-size: 2rem;
+            }
+            .line {
+                font-size: 1rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .nav {
+                padding: 10px 20px;
+            }
+            .n {
+                gap: 20px;
+            }
+            .type h1 {
+                font-size: 1.5rem;
+            }
+            .line {
+                font-size: 0.9rem;
+            }
+            .me {
+                width: 150px;
+                height: 150px;
+            }
+            .social img {
+                width: 30px;
+                height: 30px;
+            }
+            .Ab {
+                font-size: 1.5rem;
+            }
+            .pan {
+                font-size: 0.9rem;
+            }
+        } 
